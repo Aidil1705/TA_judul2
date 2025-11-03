@@ -9,5 +9,5 @@ git init
 </br>
 lalu saya akan menghubungkan folder dengan repositori dengan perintah remote
 ## Hubungkan Folder dengan github
-'''bash
+```bash
 git remote add origin https://github.com/username/repo.git
