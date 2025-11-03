@@ -1,11 +1,13 @@
 # Tugas Akhir Judul 2
 
-Proyek ini digunakan untuk belajar dasar Git dan GitHub.
-
-## Cara Menjalankan
+Pertama kita akan membuat folder project lalu membuat repositori.  
+Lalu saya akan menginisiasi folder dengan git
+## Dengan Perintah
 ```bash
 git init
 
-Lalu kita hubungkan folder proyek kita dengan github dengan menggunakan remote
+</br>
+lalu saya akan menghubungkan folder dengan repositori dengan perintah remote
+## Hubungkan Folder dengan github
 '''bash
 git remote add origin https://github.com/username/repo.git
