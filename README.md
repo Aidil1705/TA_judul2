@@ -1,6 +1,9 @@
-# TA_judul2
+# Tugas Akhir Judul 2
 
-Pertama kita akan melakukan inisiasi folder TA_judul2 ke git menggunakan perintah
-'''bash
+Proyek ini digunakan untuk belajar dasar Git dan GitHub.
+
+## Cara Menjalankan
+```bash
+git --version
 git init
-'''
+git remote add origin https://github.com/username/repo.git
