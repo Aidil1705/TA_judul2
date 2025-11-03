@@ -40,6 +40,8 @@ Perintah ini digunakan untuk menambahkan semua file yang ada di folder ke stagin
 
 </br>
 Melakukan Commit Pertama
+
+
 ```bash
 git commit -m "komit pertama"
 ```
@@ -48,6 +50,8 @@ Perintah ini digunakan untuk menyimpan perubahan yang sudah ditambahkan ke stagi
 
 </br>
 Melakukan Push Pertama
+
+
 ```bash
 git push origin master
 ```
@@ -58,6 +62,8 @@ Perintah ini digunakan untuk mengirim (upload) commit dari branch master ke repo
 Menambahkan File Baru
 
 Saya kemudian membuat file index.html yang sebelumnya belum di-add, jadi saya menambahkan file itu secara manual.
+
+
 ```bash
 git add index.html
 ```
@@ -67,6 +73,8 @@ Perintah ini hanya menambahkan satu file tertentu, yaitu index.html, ke staging 
 
 </br>
 Melihat Status
+
+
 ```bash
 git status
 ```
@@ -75,6 +83,8 @@ Digunakan untuk melihat file apa saja yang sudah ditambahkan ke staging area dan
 
 </br>
 Melakukan Commit Kedua
+
+
 ```bash
 git commit -m "komit index"
 ```
@@ -83,6 +93,8 @@ Untuk menyimpan perubahan file index.html ke dalam repositori.
 
 </br>
 Melakukan Push Lagi
+
+
 ```bash
 git push origin master
 ```
@@ -91,6 +103,8 @@ Untuk mengunggah perubahan commit index.html ke GitHub.
 
 </br>
 Membuat Branch Baru
+
+
 ```bash
 git branch section
 ```
@@ -99,6 +113,8 @@ Perintah ini digunakan untuk membuat branch baru bernama section.
 
 </br>
 Pindah ke Branch Section
+
+
 ```bash
 git checkout section
 ```
@@ -108,6 +124,8 @@ Untuk berpindah dari branch master ke branch section agar bisa mengerjakan bagia
 
 </br>
 Menambahkan File Lagi
+
+
 ```bash
 git add .
 ```
@@ -116,6 +134,8 @@ Saya menambahkan semua file yang telah diperbarui di branch section ke staging a
 
 </br>
 Commit di Branch Section
+
+
 ```bash
 git commit -m "section dan css"
 ```
@@ -124,6 +144,8 @@ Untuk menyimpan perubahan pada file index.html dan style.css di branch section.
 
 </br>
 Push ke GitHub
+
+
 ```bash
 git push origin section
 ```
@@ -134,6 +156,7 @@ Untuk mengirim commit dari branch section ke GitHub agar bisa dibuat pull reques
 Melakukan Perubahan Tambahan
 
 Saya terus menambahkan bagian lain di index.html dan memperbarui style.css, lalu melakukan commit beberapa kali seperti:
+
 
 ```bash
 git commit -m "section article"
@@ -147,11 +170,15 @@ Setiap commit ini menyimpan perubahan kecil sesuai bagian yang saya tambahkan.
 Menggabungkan Branch Section ke Master
 
 Setelah semua perubahan di branch section sudah selesai, saya kembali ke branch master dengan perintah:
+
+
 ```bash
 git checkout master
 ```
 
 Lalu saya menggabungkan hasil kerja dari branch section ke master dengan perintah:
+
+
 ```bash
 git merge section
 ```
@@ -160,6 +187,8 @@ Perintah ini menggabungkan semua perubahan dari branch section ke branch utama (
 
 </br>
 Menghapus Branch Section
+
+
 ```bash
 git branch -d section
 ```
@@ -168,6 +197,8 @@ Setelah branch section selesai digabung, saya menghapusnya agar repositori tetap
 
 </br>
 Mengecek Status Akhir
+
+
 ```bash
 git status
 ```
