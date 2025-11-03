@@ -11,7 +11,9 @@ git init
 Perintah ini berfungsi untuk menginisialisasi folder agar bisa menggunakan Git.
 
 </br>
-Menghubungkan Folder dengan GitHub    
+Menghubungkan Folder dengan GitHub   
+
+
 ```bash
 git remote add origin https://github.com/Aidil1705/TA_judul2.git
 ```
@@ -28,6 +30,8 @@ Setelah itu saya melakukan perintah git pull untuk menarik data dari repositori 
 Lalu saya membuat file index.html dan style.css.
 
 Melakukan Add Pertama
+
+
 ```bash
 git add .
 ```
