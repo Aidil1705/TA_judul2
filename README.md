@@ -11,7 +11,7 @@ git init
 Perintah ini berfungsi untuk menginisialisasi folder agar bisa menggunakan Git.
 
 </br>
-Menghubungkan Folder dengan GitHub
+Menghubungkan Folder dengan GitHub    
 ```bash
 git remote add origin https://github.com/Aidil1705/TA_judul2.git
 ```
