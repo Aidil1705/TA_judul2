@@ -5,6 +5,7 @@ Lalu saya akan menginisiasi folder dengan git
 ## Dengan Perintah
 ```bash
 git init
+```
 
 </br>
 lalu saya akan menghubungkan folder dengan repositori dengan perintah remote
