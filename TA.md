@@ -209,4 +209,4 @@ Menampilkan bahwa tidak ada perubahan yang perlu di-commit dan semua sudah bersi
 
 Dengan langkah-langkah di atas, saya berhasil membuat project, menambahkan file, melakukan commit dan push beberapa kali, membuat branch baru, melakukan merge ke master, dan menjaga repositori tetap bersih dan sinkron dengan GitHub.
 
-![Alt text](https://link.gambar.com/contoh.png)
+![Alt text]([https://link.gambar.com/contoh.png](https://github.com/Aidil1705/TA_judul2/blob/master/gitlog.png))
