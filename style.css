@@ -64,3 +64,130 @@ body {
 .navbar ul li a:hover::after {
     width: 100%;
 }
+
+
+main {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background: white;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.6s ease;
+}
+
+
+
+h2 {
+    color: #667eea;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+#tentang {
+    overflow: auto;
+}
+
+#tentang img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 2rem 1rem 0;
+    border: 5px solid #667eea;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+    transition: transform 0.3s ease;
+}
+
+#tentang img:hover {
+    transform: scale(1.1);
+}
+
+#tentang p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#proyek article {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: auto;
+}
+
+#proyek article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#proyek h3 {
+    color: #764ba2;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    float: left;
+    width: 100%;
+}
+
+#proyek p {
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    float: left;
+    width: 65%;
+}
+
+#proyek a {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    float: right;
+    margin-top: 0.5rem;
+}
+
+#proyek a:hover {
+    background: #764ba2;
+    transform: translateX(5px);
+}
+
+#kontak p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    color: #555;
+}
+
+#kontak a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+#kontak a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
